@@ -1,0 +1,60 @@
+@import "./variable";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .content {
+        font-size: 4.5rem;
+        font-weight: 600;
+        font-family: "Dancing Script", cursive;
+        color: #c76494;
+        position: relative;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid;
+        width: fit-content;
+        animation: typing 3.5s steps(30, end), blink 0.75s step-end infinite;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: #fff;
+            width: 100%;
+            animation: reveal 3.5s ease-in-out forwards;
+        }
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+  
+@keyframes blink {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: $main-color;
+    }
+}
+  
+@keyframes reveal {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}

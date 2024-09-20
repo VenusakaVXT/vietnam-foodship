@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="image" viewBox="0 0 100 100">
+    <rect width="100" height="100" style="fill:#c76494;stroke:#c76494;stroke-width:5;" />
+    <text x="10" y="40" font-family="Verdana" font-size="16" fill="#fff">
+        <tspan x="10" dy="0">VietNam</tspan>
+        <tspan x="10" dy="12">FoodShip</tspan>
+    </text>
+</svg>

@@ -1,0 +1,19 @@
+$height-home-page: 89vh;
+
+.homepage__wrapper {
+    .homepage__banner {
+        background-image: url("https://winerp.com.vn/wp-content/uploads/2022/06/am-thuc-la-gi.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: $height-home-page;
+
+        .homepage__banner-cover {
+            top: 71px;
+            width: 100%;
+            height: $height-home-page;
+            background-color: #000;
+            opacity: 0.4;
+        }
+    }
+}

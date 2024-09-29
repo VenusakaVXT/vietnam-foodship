@@ -2,8 +2,8 @@ import React from "react"
 import "../../scss/Logo.scss"
 
 interface LogoProps {
-    width: number
-    height: number
+    width: number | string
+    height: number | string
     fontSize: string
     bgColor: string
     color: string
